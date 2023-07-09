@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CHelper.h" />
     <ClInclude Include="FolderIcon.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
@@ -161,6 +162,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="FolderIcon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

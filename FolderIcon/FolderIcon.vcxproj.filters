@@ -30,6 +30,9 @@
     <ClInclude Include="FolderIcon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -43,5 +46,10 @@
     <ResourceCompile Include="FolderIcon.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
